@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:background="#515151"
+    tools:context="com.kratoskike.ermaker.ver2.ClasificacionF">
+
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView6"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView6"
+        app:layout_constraintStart_toStartOf="@+id/scrollView6"
+        app:layout_constraintTop_toTopOf="@+id/scrollView6">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Puntuaciones de este mes"
+            android:textColor="@color/fui_bgGoogle"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/reciclersemana" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reciclermes"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView54">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Puntuaciones de esta semana"
+            android:textColor="@color/fui_bgGoogle"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/reciclePunt" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reciclePunt"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView52">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reciclersemana"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Puntuaciones de este dia"
+            android:textColor="@color/fui_bgGoogle"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_class_volver" />
+
+        <Button
+            android:id="@+id/btn_class_volver"
+            style="@style/FirebaseUI.Button"
+            android:layout_width="140dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="8dp"
+            android:text="Volver"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

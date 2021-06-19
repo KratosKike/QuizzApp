@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kratoskike.ermaker.ver2.PerfilF"
+    android:background="#515151">
+
+    <TextView
+        android:id="@+id/tV_p_nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nombre:"
+        android:textColor="@color/fui_bgGoogle"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline53"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toTopOf="@+id/guideline34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="29dp" />
+
+    <TextView
+        android:id="@+id/tV_p_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Email:"
+        android:textColor="@color/fui_bgGoogle"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline53"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toBottomOf="@+id/tV_p_nombre" />
+
+    <TextView
+        android:id="@+id/tV_p_puntuacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Puntuacion"
+        android:textColor="@color/fui_bgGoogle"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline53"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toBottomOf="@+id/tV_p_email" />
+
+    <TextView
+        android:id="@+id/tv_p_nick"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Nickname:"
+        android:textColor="@color/fui_bgGoogle"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline53"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toBottomOf="@+id/tV_p_puntuacion" />
+
+    <Button
+        android:id="@+id/btn_cambiarnick"
+        style="@style/FirebaseUI.Button"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:text="Cambiar nick"
+        app:layout_constraintEnd_toStartOf="@+id/guideline53"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toBottomOf="@+id/tv_p_nick" />
+
+    <TextView
+        android:id="@+id/tv_p_actualizacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/guideline33"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/btn_amigos"
+        style="@style/FirebaseUI.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Amigos"
+        app:layout_constraintEnd_toStartOf="@+id/guideline53"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cambiarnick" />
+
+    <Button
+        android:id="@+id/btn_p_desconectar"
+        style="@style/FirebaseUI.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Desconectar"
+        app:layout_constraintEnd_toStartOf="@+id/guideline53"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toBottomOf="@+id/btn_amigos" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="379dp"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <ImageView
+        android:id="@+id/imageViewadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_menu_manage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

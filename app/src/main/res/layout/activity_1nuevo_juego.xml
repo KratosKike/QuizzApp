@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515151"
+    tools:context="com.kratoskike.ermaker.ver2.NuevoJuego">
+
+    <Button
+        android:id="@+id/b_EmpezarJuego"
+        style="@style/FirebaseUI.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empezar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="308dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="Partida: Debes responder preguntas hasta que falles alguna, tu puntuacion sera el numero maximo de preguntas que respondas correctamente, dispondras de un comodin que tacha 2 respuestas incorrectas, y un comodin donde utiliza la estadistica dentro de la aplicacion para sugerirte una respuesta"
+        android:textColor="@color/fui_bgGoogle"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="274dp"
+        android:layout_height="267dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pngegg__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

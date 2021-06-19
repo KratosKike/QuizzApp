@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ermaker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.kratoskike.ermaker.ver2.BorrarPreguntaF"></activity>
+        <activity android:name="com.kratoskike.ermaker.ver2.NuevoUsuarioF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.CrearPreguntaF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.AgregarAmigoF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.AmigosF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.ChatF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.ClasificacionF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.ResultadoF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.PartidaF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.NuevoJuego" />
+        <activity android:name="com.kratoskike.ermaker.ver2.PerfilF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.MenuPrincipalF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.LoginF" />
+        <activity android:name="com.kratoskike.ermaker.ver2.Portada">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kratoskike.ermaker.Jugar.JuegoPartida2" />
+        <activity android:name="com.kratoskike.ermaker.PruebadV.BorrarPruebadV" />
+        <activity android:name="com.kratoskike.ermaker.PruebadV.EditarPruebadV" />
+        <activity android:name="com.kratoskike.ermaker.PruebadV.NuevaPruebadV" />
+        <activity android:name="com.kratoskike.ermaker.PruebadV.MenuPruebadV" />
+        <activity android:name="com.kratoskike.ermaker.Jugar.JuegoPartida" />
+        <activity android:name="com.kratoskike.ermaker.Jugar.JugarContinuarPartida" />
+        <activity android:name="com.kratoskike.ermaker.Jugar.JugarNuevaPartida" />
+        <activity android:name="com.kratoskike.ermaker.MenuPrueba.Prueba_Borrar_Activity" />
+        <activity android:name="com.kratoskike.ermaker.MenuPrueba.PruebaNuevaActivity" />
+        <activity android:name="com.kratoskike.ermaker.MenuFase.ui.main.FaseBorrarActivity" />
+        <activity android:name="com.kratoskike.ermaker.MenuFase.ui.main.FaseEditarActivity" />
+        <activity android:name="com.kratoskike.ermaker.MenuFase.ui.main.FaseNuevaActivity" />
+        <activity
+            android:name="com.kratoskike.ermaker.old.OpcionesActivity"
+            android:label="@string/title_activity_opciones"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.kratoskike.ermaker.old.PerfilActivity"
+            android:label="@string/title_activity_perfil"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.kratoskike.ermaker.MenuPrueba.PruebaActivity"
+            android:label="@string/title_activity_prueba"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.kratoskike.ermaker.MenuFase.ui.main.FaseActivity"
+            android:label="@string/title_activity_fase"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.kratoskike.ermaker.Jugar.JugarActivity"
+            android:label="@string/title_activity_jugar"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.kratoskike.ermaker.old.MenuPrincipalActivity"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.kratoskike.ermaker.NavView.ui.TMenuPrincipalActivity"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/NoActionBar" />
+        <activity android:name="com.kratoskike.ermaker.old.SignUpActivity" />
+        <activity android:name="com.kratoskike.ermaker.old.LoginActivityV2" />
+        <activity android:name="test.FirebaseLogin" />
+        <activity android:name="com.kratoskike.ermaker.old.ProfileActivity" />
+        <activity android:name="com.kratoskike.ermaker.old.Intro" />
+        <activity android:name="test.LoginActivity" />
+    </application>
+
+</manifest>

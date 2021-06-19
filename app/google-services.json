@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "310467480160",
+    "firebase_url": "https://ermaker-914bc.firebaseio.com",
+    "project_id": "ermaker-914bc",
+    "storage_bucket": "ermaker-914bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310467480160:android:1891cb1302c148495c5105",
+        "android_client_info": {
+          "package_name": "com.kratoskike.ermaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310467480160-qfvqgkgv3dp642shld7hbfvbhetibp6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kratoskike.ermaker",
+            "certificate_hash": "3377bfe6ed1f4e97625ca69c4f1d881cb31de66e"
+          }
+        },
+        {
+          "client_id": "310467480160-j6njg93nga2osk5cfru0p67nor9srj0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFYmWN35WHGyL6PF5kXd2zHREwo_QY5mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310467480160-j6njg93nga2osk5cfru0p67nor9srj0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
